@@ -1,6 +1,12 @@
 # NBER-familiarity-indicators
 Set of MySQL and python scripts to create familiarity indicator by IPC class
 
+Inventor’s familiarity with components of the invention measured by the (a) recent and (b) frequent usage of focal patent’s classes across all US patents. Thus, we calculate a measure of familiarity for each separate class of a focal patent. Therefore, the more recently and frequently a class has been used, its individual measure will be higher.
+
+Based on Fleming 2001
+https://funginstitute.berkeley.edu/wp-content/uploads/2012/10/Recombinant-Uncertainty-in-Technological-Search.pdf
+
+
 The set of scripts allow to create patents familiarity by IPC4 (set A) or IPC4 combination (SET B)
 
 Prerequisites:
